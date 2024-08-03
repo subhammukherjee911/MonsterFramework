@@ -1,0 +1,10 @@
+name: MonsterFramework
+jobs:
+  Job1:
+    name: Job 1
+    steps:
+      - type: maven
+        working-directory: ''
+    runs-on: Windows-Small
+    enable-dependency-cache: true
+    parallelism: 2
